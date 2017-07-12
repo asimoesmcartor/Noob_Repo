@@ -1,8 +1,8 @@
 {
   "name": "electron_app_sandbox",
   "version": "1.0.0",
-  "description": "this is a test app for playing around with electron framework",
-  "main": "index.js",
+  "description": "This is a test app for playing around with electron framework",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
