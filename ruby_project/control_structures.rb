@@ -8,7 +8,7 @@ else
 end
 
 print "Would you like to see your name backwards? (yes or no)"
-answer = gets.chomp
+answer = gets.chomp.downcase
 
 if answer == "yes"
   puts "This is your name backwards:"
