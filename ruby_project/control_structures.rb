@@ -1,13 +1,8 @@
-car1_speed = 500
-car2_speed = 300
+print "Enter name: "
+name = gets.chomp
 
-if car1_speed > car2_speed
-  puts "Car 1 is faster than car 2"
-
-end
-
-car2_speed += 300
-
-if car2_speed > car1_speed
-  puts "Car 2 is faster than car 1."
+if name == "Alex"
+  puts "That's my name too!"
+else
+  puts "Hit #{name}!"
 end
