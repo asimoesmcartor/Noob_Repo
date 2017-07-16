@@ -10,7 +10,7 @@ def greet(name)
   end
 end
 
-def get_number(number)
+def get_number()
   print "What number would you like to test? "
   return gets.chomp.to_i
 end
