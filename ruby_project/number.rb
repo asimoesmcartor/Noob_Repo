@@ -25,4 +25,6 @@ number = get_number()
 
 if divisible_by_3?(number)
   puts "Your number is divisible by 3!"
+else
+  puts "Your number is not cleanly divisible by 3."
 end
