@@ -2,10 +2,12 @@ html,
 body {
 	padding: 0;
 	margin: 0;
+
 }
 
 body {
 	font-family: -apple-system, 'Helvetica Neue', Helvetica, sans-serif;
+	background: linear-gradient(110deg, #008EDD 60%, #CFEBF5 60%);
 }
 
 header {
