@@ -1,14 +1,33 @@
 {
-  "name": "electron_app_sandbox",
-  "version": "1.0.0",
-  "description": "This is a test app for playing around with electron framework",
-  "main": "main.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Alex Simoes-McArtor",
+  "name": "app",
+  "productName": "App",
+  "version": "0.0.0",
+  "description": "",
   "license": "MIT",
+  "repository": "user/repo",
+  "author": {
+    "name": "",
+    "email": "",
+    "url": ""
+  },
+  "scripts": {
+    "test": "xo",
+    "start": "electron .",
+    "build": "electron-packager . --out=dist --asar --overwrite --all"
+  },
+  "dependencies": {
+    "electron-debug": "^1.0.0"
+  },
   "devDependencies": {
-    "electron": "^1.6.11"
+    "devtron": "^1.1.0",
+    "electron-packager": "^8.0.0",
+    "electron": "^1.6.6",
+    "xo": "^0.18.0"
+  },
+  "xo": {
+    "envs": [
+      "node",
+      "browser"
+    ]
   }
 }

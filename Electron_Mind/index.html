@@ -1,15 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Electron App Sandbox</title>
-  <script>
-    const fs = require('fs')
-    const os = require('os')
-    const files = fs.readdirSync(os.homedir())
-    document.innerHTML = files.join('<br>')
-  </script>
-</head>
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Electron boilerplate</title>
+		<link rel="stylesheet" href="index.css">
+	</head>
+	<body>
+		<div class="container">
+			<header>
+				<h1>Electron boilerplate</h1>
+			</header>
+			<section class="main"></section>
+			<footer></footer>
+		</div>
+	</body>
 </html>
