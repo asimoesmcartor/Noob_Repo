@@ -49,7 +49,7 @@ toggleEditing = id =>
   this.toggleGuestProperty("isEditing", id);
 
 //Handler that enables the text box to be changed to span and saves the name
-setName = (name, id) =>
+setNameAt = (name, id) =>
   this.setState({
     guests: this.state.guests.map(guest => {
       if (id === guest.id) {
@@ -95,7 +95,6 @@ newGuestSubmitHandler = e => {
     );
 
 
-
   render() {
     const totalInvited = this.getTotalInvited();
     const numberAttending = this.getAttendingGuests();
@@ -117,7 +116,7 @@ newGuestSubmitHandler = e => {
         guests={this.state.guests}
         toggleConfirmation={this.toggleConfirmation}
         toggleEditing={this.toggleEditing}
-        setName={this.setName}
+        setNameAt={this.setNameAt}
         removeGuest={this.removeGuest}
         pendingGuest={this.state.pendingGuest}
        />
