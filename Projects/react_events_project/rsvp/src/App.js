@@ -107,6 +107,7 @@ newGuestSubmitHandler = e => {
         pendingGuest={this.state.pendingGuest}
         handleNameInput={this.handleNameInput}
       />
+      <header/>
       <MainContent
         toggleFilter={this.toggleFilter}
         isFiltered={this.state.isFiltered}
