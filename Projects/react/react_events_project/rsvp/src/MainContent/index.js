@@ -6,7 +6,7 @@ import GuestList from './GuestList';
 import Counter from './Counter';
 
 const MainContent = props =>
-  <div class="main">
+  <div className="main">
     <ConfirmedFilter
       toggleFilter={props.toggleFilter}
       isFiltered={props.isFiltered}
@@ -39,7 +39,7 @@ MainContent.propTypes = {
   guests: PropTypes.array.isRequired,
   toggleConfirmation: PropTypes.func.isRequired,
   toggleEditing: PropTypes.func.isRequired,
-  setName: PropTypes.func.isRequired,
+  setNameAt: PropTypes.func.isRequired,
   removeGuest: PropTypes.func.isRequired,
   pendingGuest: PropTypes.string.isRequired
 };

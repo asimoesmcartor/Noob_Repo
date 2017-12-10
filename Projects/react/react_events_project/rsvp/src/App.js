@@ -101,13 +101,12 @@ newGuestSubmitHandler = e => {
     const numberUnconfirmed = totalInvited - numberAttending;
 
     return (
-      <div class="App">
+      <div className="App">
       <Header
         newGuestSubmitHandler={this.newGuestSubmitHandler}
         pendingGuest={this.state.pendingGuest}
         handleNameInput={this.handleNameInput}
       />
-      <header/>
       <MainContent
         toggleFilter={this.toggleFilter}
         isFiltered={this.state.isFiltered}

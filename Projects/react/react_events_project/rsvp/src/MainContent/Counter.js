@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 const Counter = props =>
 
-  <table class="counter">
+  <table className="counter">
     <tbody>
       <tr>
         <td>Attending:</td>

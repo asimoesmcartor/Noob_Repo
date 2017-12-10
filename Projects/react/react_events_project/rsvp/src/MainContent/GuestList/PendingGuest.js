@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 const PendingGuest = props => {
   if (props.name)  {
     return(
-          <li class="pending">
+          <li className="pending">
             <span>
               {props.name}
             </span>
