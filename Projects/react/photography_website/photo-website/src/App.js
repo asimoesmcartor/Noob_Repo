@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import '../node_modules/grommet-css'
 import {Grid, Jumbotron } from 'react-bootstrap';
 import SearchForm from './components/SearchForm';
 import Results from './components/Results';

@@ -4,7 +4,8 @@
   "private": true,
   "dependencies": {
     "bootstrap": "^4.0.0",
-    "material-components-web": "^0.28.0",
+    "grommet": "^1.10.0",
+    "grommet-css": "^1.6.0",
     "react": "^16.2.0",
     "react-bootstrap": "^0.32.1",
     "react-dom": "^16.2.0",
