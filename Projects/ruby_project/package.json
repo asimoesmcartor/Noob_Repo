@@ -1,0 +1,14 @@
+{
+  "name": "first_ruby_sandbox",
+  "version": "1.0.0",
+  "description": "testing project for ruby",
+  "main": "methods.rb",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alex Simoes-McArtor",
+  "license": "MIT",
+  "devDependencies": {
+    "ruby": "^0.6.1"
+  }
+}
