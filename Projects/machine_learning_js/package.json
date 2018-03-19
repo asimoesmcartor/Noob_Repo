@@ -1,0 +1,14 @@
+{
+  "name": "machine_learning_js",
+  "version": "1.0.0",
+  "description": "machine learning app to test ML in JS",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alex Simoes-McArtor",
+  "license": "ISC",
+  "dependencies": {
+    "npm": "^5.7.1"
+  }
+}
